@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header {
+    background-color: #FF69B4;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media (max-width: 770px) {
+        flex-direction: column;
+        height: 30vh;
+    }
+}   
+
+.BoxLogo {
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    @media (max-width: 770px) {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 1.7vw;
+        font-weight: 400;
+        @media (max-width: 770px) {
+            font-size: 2.5vw;
+        }
+        @media (max-width: 500px) {
+            font-size: 3.1vw;
+        }
+    }
+    img {
+        @media (max-width: 1000px) {
+            width: 9vw;
+        }
+        @media (max-width: 770px) {
+            width: 12vw;
+        }
+        @media (max-width: 500px) {
+            width: 15vw;
+        }
+    }     
+}
+
+nav {
+    width: 40vw;
+    @media (max-width: 770px) {
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.5vw;
+        @media (max-width: 770px) {
+            justify-content: space-evenly;
+            font-size: 2.3vw;
+        } 
+        @media (max-width: 500px) {
+            font-size: 3vw
+        }
+        a {
+            color: white;
+        }
+    } 
+}
+
+main {
+    .FristBox {
+        background-color: #FFD9EC;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            width: 50vw;
+            font-size: 1.7vw;
+            @media (max-width: 770px) {
+                font-size: 2.3vw;
+            }
+            @media (max-width: 500px) {
+                font-size: 2.6vw;
+            }
+        }
+        img {
+            width: 18vw;
+            @media (max-width: 770px) {
+                width: 40vw;
+            }
+            @media (max-width: 500px) {
+                width: 40vw;
+            }
+        }
+    }    
+    .SecondBox {
+        background-color: #FF69B4;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            color: white;
+            width: 40vw;
+            font-size: 1.5vw;
+            @media (max-width: 770px) {
+                font-size: 2.3vw;
+            }
+            @media (max-width: 500px) {
+                font-size: 2.6vw;
+            }
+        }
+        img {
+           width: 23vw;
+           @media (max-width: 770px) {
+            width: 50vw;
+        }
+            @media (max-width: 500px) {
+            width: 50vw;
+        }
+        }
+    }
+    .ThirdBox {
+        background-color: #FFD9EC;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        @media (max-width: 770px) {
+            height: 80vh;
+        }
+        @media (max-width: 770px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        img {
+            width: 15vw;
+            @media (max-width: 770px) {
+                width: 25vw;
+            }
+            @media (max-width: 500px) {
+                width: 35vw;
+            }
+        }
+    }
+}
+
+footer {
+    .FourthBox {
+        background-color: #FF69B4;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .IconesBox {
+            width: 17vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .InfoBox {
+            color: white;
+            width: 25vw;
+            font-size: 0.9vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            @media (max-width: 770px) {
+                width: 50vw;
+                font-size: 1.8vw;
+            }
+            @media (max-width: 500px) {
+                width: 70vw;
+                font-size: 2.5vw;
+            }
+        }
+        img {
+            width: 4vw;
+            @media (max-width: 770px) {
+                width: 8vw;
+            }
+            @media (max-width: 500px) {
+                width: 5vw;
+            }
+        }
+    }
+}
+
